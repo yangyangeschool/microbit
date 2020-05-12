@@ -1,5 +1,7 @@
 # Micro:bit -- 螢火蟲同步閃
 
+[最後成果](https://youtu.be/V71hu5AyOkw)
+
 [讓你的 micro:bit 搖身一變成螢火蟲](https://makecode.microbit.org/projects/fireflies)
 
 ## How do fireflies synchronize?

@@ -62,6 +62,7 @@ DahDah DahDahDah DiDahDit DiDiDit Dit , DahDiDahDit DahDahDah DahDiDi Di
 如果你想練習，有兩個網站很不錯：
 
 - [learn morse code](http://www.learnmorsecode.com/)
+
 - [Morse Code Translator](https://morsecode.world/international/translator.html)
 
 就讓我們練習一下，用 morse code 「寫」字吧！
@@ -76,15 +77,19 @@ DahDah DahDahDah DiDahDit DiDiDit Dit , DahDiDahDit DahDahDah DahDiDi Di
 首先，我們發現，摩斯電碼表中每個字母的長度不一定一樣長，我們不如就反過來，從編碼後的長度來分析。
 
 1 個「點」或「劃」：
+
 ![](https://i.imgur.com/zUNsLme.png)
 
 2 個「點」或「劃」：
+
 ![](https://i.imgur.com/TjUmpVV.png)
 
 3 個「點」或「劃」：
+
 ![](https://i.imgur.com/3XRuEKI.png)
 
 4 個「點」或「劃」：
+
 ![](https://i.imgur.com/oe5ri1m.png)
 
 在分析的過程中，你是不是發現，和以前在學2進制時一樣？沒有錯，是一樣的，而且它在不同點劃數所可以做的編碼數和2進制是一樣的：
@@ -98,6 +103,7 @@ DahDah DahDahDah DiDahDit DiDiDit Dit , DahDiDahDit DahDahDah DahDiDi Di
 
 
 你會發現，我們還可以將上面的分析表畫成下面這樣的一張「二元分歧樹」的圖。如果你認真想一想，會發現事先建立這樣的一張表是定義摩斯電碼所必需的。首先，它保證不會犯給不同的字母相同的編碼值的錯誤！其次，它保證你使用了全部的可用碼，而且「點」與「劃」的編碼沒有多餘的位數！當然，這張圖在我們要「解碼」時，非常地好用。
+
 ![](https://i.imgur.com/7wWsWRI.png)
 
 摩斯電碼被稱為二元碼(binary code)，因為編碼中僅含有兩種狀態：點與劃。二元事物、二元編碼常常用2的冪次方來描述，在電腦科學中更是常被用到。上面對二元編碼所做的分析在數學上叫做組合學或組合分析，而這個也只是一個非常簡單的練習。從這些練習中，同學們應該對「編碼」<->「解碼」有更進一步的體認。
@@ -107,27 +113,35 @@ DahDah DahDahDah DiDahDit DiDiDit Dit , DahDiDahDit DahDahDah DahDiDi Di
 ## 在 micro:bit 使用廣播實作
 
 首先，我們做一個 di 函數
+
 ![](https://i.imgur.com/1VqlLdq.png)
 
 再做一個 da 函數
+
 ![](https://i.imgur.com/8wy9o7E.png)
 
 通訊的時候，因為是雙向可同時溝通，所以做一個 over
+
 ![](https://i.imgur.com/ADtsoAj.png)
 
 按鍵規畫：按 A 是 di；按 B 是 da；按 AB 是 over
+
 ![](https://i.imgur.com/QASHF2v.png)
 
 廣播
+
 ![](https://i.imgur.com/w0yrT49.png)
 
 廣播前要設定群組
+
 ![](https://i.imgur.com/qTuGnOe.png)
 
 收廣播訊號
+
 ![](https://i.imgur.com/AAwSHrN.png)
 
 全部程式
+
 ![](https://i.imgur.com/3DDrXsS.png)
 
 https://makecode.microbit.org/_3kfR5UVdW1gW

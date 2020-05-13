@@ -1,8 +1,14 @@
 # 校歌
 
+[二林工商校歌](https://makecode.microbit.org/_3epY3Whvf8e3)
+
 音階--頻率對照表
 
 ![](https://i.imgur.com/ZLpIhlm.png)
+
+二林工商校歌歌譜
+
+![](https://i.imgur.com/aUXEPAy.png)
 
 以 500ms 為一拍
 

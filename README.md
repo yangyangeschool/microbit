@@ -7,6 +7,7 @@
 * [Let's Code](https://microbit.org/code/)
 * [Documentation - Microsoft MakeCode](https://makecode.microbit.org/docs)
 * [阿玉micro:bit研究區](https://sites.google.com/site/wenyumaker2/)
+* [microbitg1061120.docx](https://docs.google.com/document/d/1SvGeLBhspbWlEGWxHS3YyleVUXk9D0ZNZPDlQrtw9SU/edit#)
 
 ## 動手做一做
 
